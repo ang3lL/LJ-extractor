@@ -34,11 +34,32 @@ boaevents.com/f87346b
 Extraction with more verbosity:
 
 ```
-$ ./extract.py -vv sample/001_5083.pdf 
-[+] Embedded DLJTN2CUR.docm found
-[+] Embedded file extracted: sample/001_5083.pdf-DLJTN2CUR.docm
-[+] VBA Macros extracted
-[+] Links found: ['dcfarbicka.sk/hHGFjd', 'hrlpk.com/hHGFjd', '5hdnnd74fffrottd.com/af/hHGFjd', 'byydei74fg43ff4f.net/af/hHGFjd', 'sjffonrvcik45bd.info/af/hHGFjd']
+$ ./extract.py -vv /tmp/sample/25-05-2017.pdf
+[+] Embedded Unnamed 3 found
+[+] Embedded file extracted: /tmp/sample/25-05-2017.pdf-Unnamed 3
+[+] Embedded Unnamed 2 found
+[+] Embedded file extracted: /tmp/sample/25-05-2017.pdf-Unnamed 2
+[+] Embedded Unnamed 1 found
+[+] Embedded file extracted: /tmp/sample/25-05-2017.pdf-Unnamed 1
+[+] Embedded Unnamed found
+[+] Embedded file extracted: /tmp/sample/25-05-2017.pdf-Unnamed
+[+] Embedded NT3WCQD.doc found
+[+] Embedded file extracted: /tmp/sample/25-05-2017.pdf-NT3WCQD.doc
+[+] Analyzing: /tmp/sample/25-05-2017.pdf-Unnamed 3
+	[+] VBA Macros extracted : /tmp/sample/25-05-2017.pdf-Unnamed 3
+	[-] No links found
+[+] Analyzing: /tmp/sample/25-05-2017.pdf-Unnamed 2
+[+] Analyzing: /tmp/sample/25-05-2017.pdf-Unnamed 1
+[+] Analyzing: /tmp/sample/25-05-2017.pdf-Unnamed
+[+] Analyzing: /tmp/sample/25-05-2017.pdf-NT3WCQD.doc
+	[+] VBA Macros extracted : ThisDocument.cls
+	[+] VBA Macros extracted : LocalBrowser.frm
+	[+] VBA Macros extracted : STRIX.cls
+	[+] VBA Macros extracted : Module3.bas
+	[+] VBA Macros extracted : Module1.bas
+	[+] VBA Macros extracted : Module2.bas
+	[+] VBA Macros extracted : Module4.bas
+	[+] Links found: ['blackstoneconsultants.com/TrfHn4', 'better57toiuydof.net/af/TrfHn4', 'youtoolgrabeertorse.org/af/TrfHn4', 'hunter.cz/TrfHn4']
 ```
 
 Massive extraction
